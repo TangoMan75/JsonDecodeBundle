@@ -1,5 +1,5 @@
 {
-    "name": "tangoman/jsonDecode-bundle",
+    "name": "tangoman/json-decode-bundle",
     "description": "JsonDecode Symfony Twig Extension Bundle",
     "version": "1.0.0",
     "license": "GPL-3.0",
