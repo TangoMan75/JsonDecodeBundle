@@ -1,0 +1,31 @@
+{
+    "name": "tangoman/jsonDecode-bundle",
+    "description": "JsonDecode Symfony Twig Extension Bundle",
+    "version": "1.0.0",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Matthias Morin",
+            "email": "tangoman@free.fr"
+        }
+    ],
+    "type": "library",
+    "keywords": [
+        "JsonDecode",
+        "Twig",
+        "Extension",
+        "Service",
+        "Symfony",
+        "Bundle"
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TangoMan\\JsonDecodeBundle\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

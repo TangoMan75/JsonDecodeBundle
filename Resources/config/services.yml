@@ -1,0 +1,5 @@
+services:
+    twig.extension.jsonDecode:
+        class: TangoMan\JsonDecodeBundle\TwigExtension\JsonDecode
+        tags:
+            - { name: twig.extension }
