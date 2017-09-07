@@ -9,7 +9,7 @@ namespace TangoMan\JsonDecodeBundle\TwigExtension;
  * @author  Matthias Morin <tangoman@free.fr>
  * @package AppBundle\TwigExtension
  */
-class JsonDecode extends \Twig_Extension
+class JsonDecodeExtension extends \Twig_Extension
 {
     /**
      * @return string
@@ -22,10 +22,10 @@ class JsonDecode extends \Twig_Extension
     /**
      * @return array
      */
-    public function getFilters()
+    public function getFunctions()
     {
         return [
-        new \Twig_SimpleFilter('json_decode', [$this, 'jsonDecodeFunction']),
+            new \Twig_SimpleFunction('json_decode', [$this, 'jsonDecodeFunction']),
         ];
     }
 
@@ -36,8 +36,9 @@ class JsonDecode extends \Twig_Extension
      */
     public function jsonDecodeFunction($json)
     {
-        if(! is_string($json)){
+        if (!is_string($json)) {
             return json_decode($json);
         }
+        return null;
     }
 }
