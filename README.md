@@ -52,7 +52,7 @@ If you like **TangoMan JsonDecodeBundle** please star!
 And follow me on GitHub: [TangoMan75](https://github.com/TangoMan75)
 ... And check my other cool projects.
 
-[tangoman.free.fr](https://tangoman.io)
+[tangoman.io](https://tangoman.io)
 
 [license-MIT]: https://img.shields.io/badge/Licence-MIT-green.svg
 [license-url]: LICENSE
